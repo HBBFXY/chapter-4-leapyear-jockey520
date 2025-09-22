@@ -1,5 +1,5 @@
 try:
-    year = eval(input(""))
+    year = eval(input("请输入年份："))
     if year%4 ==0:
         if year % 400 == 0:
             print("是闰年")
